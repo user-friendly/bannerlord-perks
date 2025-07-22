@@ -22,9 +22,11 @@
     	<xsd:sequence>
     		<xsd:element name="Property" type="mbb:PropertyType" minOccurs="1" maxOccurs="unbounded" />
     	</xsd:sequence>
-    	<xsd:attribute name="id" type="xsd:string" />
-    	<xsd:attribute name="name" type="xsd:string" />
-    	<xsd:attribute name="skill" type="xsd:string" />
+    	<xsd:attribute name="id" type="xsd:string" use="required" />
+    	<xsd:attribute name="name" type="xsd:string" use="required" />
+    	<xsd:attribute name="skill" type="xsd:string" use="required" />
+    	<!-- Required skill level to unlock perk. -->
+    	<xsd:attribute name="required" type="xsd:unsignedShort" use="required" />
     </xsd:complexType>
 	
     <xsd:complexType name="PropertyType">
