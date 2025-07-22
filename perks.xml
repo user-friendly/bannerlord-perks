@@ -78,6 +78,222 @@
 		</Property>
 	</Perk>
 	
+	<Perk id="one_handed.cavalry" name="Cavalry" skill="one_handed" required="75">
+		<Property>
+			<Target>self</Target>
+			<Description>+5% damage with one handed weapons while mounted.</Description>
+			<Effects>
+				<Effect type="effect.character.combat.damage.one_handed.mounted" value="1.05" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>+5% melee damage by cavalry troops in your formation.</Description>
+			<Effects>
+				<Effect type="effect.character.combat.damage.melee.mounted" value="1.05" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed.bearer" name="Shield Bearer" skill="one_handed" required="75">
+		<Property>
+			<Target>self</Target>
+			<Description>Remove movement speed penalty of wielding shields.</Description>
+			<Effects>
+				<Effect type="effect.character.combat.toggle.shield_penalty" value="false" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>+3% movement speed to infantry in your formation.</Description>
+			<Effects>
+				<Effect type="effect.character.combat.move_speed.infantry" value="1.03" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed.duelist" name="Duelist" skill="one_handed" required="100">
+		<Property>
+			<Target>self</Target>
+			<Description>+20% damage while wielding a one handed weapon without a shield.</Description>
+			<Effects>
+				<Effect type="effect.character.combat.damage.one_handed.no_shield" value="1.2" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>self</Target>
+			<Description>Double the amount of renown gained from tournaments.</Description>
+			<Effects>
+				<Effect type="effect.character.renown.tournament.bonus" value="2" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed.trainer" name="Trainer" skill="one_handed" required="100">
+		<Property>
+			<Target>self</Target>
+			<Description>+2 hit points.</Description>
+			<Effects>
+				<Effect type="effect.character.combat.hp" value="2" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>party</Target>
+			<Description>+5% experience to melee troops in your party after every battle.</Description>
+			<Effects>
+				<Effect type="effect.character.experience.bonus.post_battle.troop.melee.mult" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed.catcher" name="Arrow Catcher" skill="one_handed" required="125">
+		<Property>
+			<Target>self</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed.shieldwall" name="Shieldwall" skill="one_handed" required="125">
+		<Property>
+			<Target>self</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed." name="" skill="one_handed" required="0">
+		<Property>
+			<Target>self</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed." name="" skill="one_handed" required="0">
+		<Property>
+			<Target>self</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed." name="" skill="one_handed" required="0">
+		<Property>
+			<Target>self</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed." name="" skill="one_handed" required="0">
+		<Property>
+			<Target>self</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed." name="" skill="one_handed" required="0">
+		<Property>
+			<Target>self</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed." name="" skill="one_handed" required="0">
+		<Property>
+			<Target>self</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
 	<Perk id="one_handed." name="" skill="one_handed" required="0">
 		<Property>
 			<Target>self</Target>

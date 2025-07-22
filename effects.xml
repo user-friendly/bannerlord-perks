@@ -34,12 +34,41 @@
 		<Stack>multi</Stack>
 	</Effect>
 	
+	<!-- All one handed weapons. -->
+	<Effect id="effect.character.combat.damage.one_handed">
+		<Name>One Handed Damage</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<!-- All one handed weapons, without shield. -->
+	<Effect id="effect.character.combat.damage.one_handed.no_shield">
+		<Name>One Handed Damage (Without Shield)</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<!-- All one handed weapons, when mounted. -->
+	<Effect id="effect.character.combat.damage.one_handed.mounted">
+		<Name>One Handed Damage (Mounted)</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.damage.melee.mounted">
+		<Name>Melee Damage (Cavalry Troops)</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<!-- One handed AXE weapons. -->
 	<Effect id="effect.character.combat.damage.axe">
 		<Name>One Handed Axe Damage</Name>
 		<ValueType>number</ValueType>
 		<Stack>multi</Stack>
 	</Effect>
 	
+	<!-- One handed MACE weapons. -->
 	<Effect id="effect.character.combat.damage.mace">
 		<Name>One Handed Mace Damage</Name>
 		<ValueType>number</ValueType>
@@ -62,6 +91,113 @@
 		<Name>Skill One Handed</Name>
 		<ValueType>number</ValueType>
 		<Stack>add</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.toggle.shield_penalty">
+		<Name>Shield Movement Speed Penalty</Name>
+		<ValueType>bool</ValueType>
+	</Effect>
+	
+	<Effect id="effect.character.combat.move_speed.infantry">
+		<Name>Move Speed (Infantry Troops)</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.renown.tournament.bonus">
+		<Name>Renown Bonus (Tournaments)</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.hp">
+		<Name>Hit Points</Name>
+		<ValueType>number</ValueType>
+		<Stack>Add</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.experience.bonus.post_battle.troop.melee.mult">
+		<Name>Experience Bonus (Post Battle, Melee Troops)</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
 	</Effect>
 	
 	<Effect id="effect.character.combat.">
