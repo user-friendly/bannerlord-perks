@@ -22,6 +22,9 @@
 		<Target id="manager" name="Governor">
 			<Description>Applied to the managed settlement. Character needs to be assigned as a governor of a fief for this effect to take effect. Effect is applied to the governed fief.</Description>
 		</Target>
+		<Target id="party" name="Party Leader">
+			<Description>Applied to the party the character is leading.</Description>
+		</Target>
 	</PerkTargets>
 	
 	<Skills>
