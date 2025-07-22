@@ -3,10 +3,12 @@
 <BaseTypes>
 	<EffectValueType>
 		<ValueType id="number" name="Number" description="A real number, a float/double." />
+		<ValueType id="bool" name="Boolean" description="True or false." />
 	</EffectValueType>
 	
 	<!-- How effects stack. Probably overkill. -->
 	<EffectStack>
+		<Stack id="no" name="Does not stack" />
 		<Stack id="add" name="Additive" description="Effects add up. Perk A + Perk B + Perk C ... etc." />
 		<Stack id="multi" name="Multiplicative" description="Effects multiply. Perk A * Perk B * Perk C ... etc." />
 	</EffectStack>
