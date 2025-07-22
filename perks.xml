@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Perks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+       xsi:schemaLocation="http://www.example.org/perks/ schema/perks.xsd"
+       xmlns="http://www.example.org/perks/"
+>
+	<Perk id="one_handed.basher" name="Basher" skill="one_handed">
+		<Property>
+			<Target>self</Target>
+			<Description>+50% damage and longer stun durations with shield bashes.</Description>
+			<Effects>
+				<Effect type="effect.character.combat.damage.shield_bash" value="1.5" />
+				<Effect type="effect.character.combat.stun.shield_bash" value="1.5" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>-4% damage taken by infantry while in shield wall formation</Description>
+			<Effects>
+				<Effect type="effect.character.combat.damage.resist.shield_wall" value="0.96" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed.wrapped" name="Wrapped Handles" skill="one_handed">
+		<Property>
+			<Target>self</Target>
+			<Description>+20% handling to one handed weapons.</Description>
+			<Effects>
+				<Effect type="effect.character.combat.handling.onehanded" value="1.2" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>+30 one handed skill to infantry troops in your formation.</Description>
+			<Effects>
+				<Effect type="effect.character.skill.onehanded" value="30" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed.swift" name="Swift Strike" skill="one_handed">
+		<Property>
+			<Target>self</Target>
+			<Description>+2% swing speed with one handed weapons</Description>
+			<Effects>
+				<Effect type="effect.character.combat.swing_speed.onehanded" value="1.02" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>manager</Target>
+			<Description>+1 daily militia recruitment in the governed settlement.</Description>
+			<Effects>
+				<Effect type="effect.settlement.militia_recruitment" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed.blunt" name="To Be Blunt" skill="one_handed">
+		<Property>
+			<Target>self</Target>
+			<Description>+5% damage with one handed axes and maces.</Description>
+			<Effects>
+				<Effect type="effect.character.combat.damage.axe" value="1.05" />
+				<Effect type="effect.character.combat.damage.mace" value="1.05" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>manager</Target>
+			<Description>+0.5 daily security to governed settlement.</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="0.5" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed." name="" skill="one_handed">
+		<Property>
+			<Target>self</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+	
+	<Perk id="one_handed." name="" skill="one_handed">
+		<Property>
+			<Target>self</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+		
+		<Property>
+			<Target>officer</Target>
+			<Description>Description</Description>
+			<Effects>
+				<Effect type="effect.TODO" value="1" />
+			</Effects>
+		</Property>
+	</Perk>
+
+</Perks>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

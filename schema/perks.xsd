@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:mbb="http://www.example.org/perks/"
+	targetNamespace="http://www.example.org/perks/"
+	elementFormDefault="qualified"
+>
+	
+	<!-- Base types. -->
+	<xsd:simpleType name="DescriptionType">
+		<xsd:union memberTypes="xsd:string" />
+	</xsd:simpleType>
+	
+    <xsd:element name="Perks">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element name="Perk" type="mbb:PerkType" minOccurs="1" maxOccurs="unbounded" />
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:complexType name="PerkType">
+    	<xsd:sequence>
+    		<xsd:element name="Property" type="mbb:PropertyType" minOccurs="1" maxOccurs="unbounded" />
+    	</xsd:sequence>
+    	<xsd:attribute name="id" type="xsd:string" />
+    	<xsd:attribute name="name" type="xsd:string" />
+    	<xsd:attribute name="skill" type="xsd:string" />
+    </xsd:complexType>
+	
+    <xsd:complexType name="PropertyType">
+    	<xsd:sequence>
+    		<xsd:element name="Target" type="xsd:string" />
+    		<xsd:element name="Description" type="mbb:DescriptionType" />
+    		<xsd:element name="Effects">
+    			<xsd:complexType>
+    				<xsd:sequence>
+    					<xsd:element name="Effect" type="mbb:EffectInstanceType" minOccurs="1" maxOccurs="unbounded"/>
+    				</xsd:sequence>
+    			</xsd:complexType>
+    		</xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="EffectInstanceType">
+    	<xsd:attribute name="type" type="xsd:string" />
+    	<xsd:attribute name="value" type="xsd:anySimpleType" />
+    </xsd:complexType> 
+</xsd:schema>

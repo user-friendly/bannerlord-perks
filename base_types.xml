@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BaseTypes>
+	<EffectValueType>
+		<ValueType id="number" name="Number" description="A real number, a float/double." />
+	</EffectValueType>
+	
+	<!-- How effects stack. Probably overkill. -->
+	<EffectStack>
+		<Stack id="add" name="Additive" description="Effects add up. Perk A + Perk B + Perk C ... etc." />
+		<Stack id="multi" name="Multiplicative" description="Effects multiply. Perk A * Perk B * Perk C ... etc." />
+	</EffectStack>
+	
+	<!-- Effect instances' (in the EffectList) target types. -->
+	<PerkTargets>
+		<Target id="self" name="Personal">
+			<Description>Applied directly to character, usually in combat.</Description>
+		</Target>
+		<Target id="officer" name="Captain">
+			<Description>Effect is applied to individual units of the group/formation assigned to the character during deployment. Example: If a character has the perk \"Control -> Bow -> Bow Control\" and during deployment is assigned to a group of 15 Imperial Trained Archers, each archer under his command will have his damage multiplied by 1.05, e.g. increased by 5%."</Description>
+		</Target>
+		<Target id="manager" name="Governor">
+			<Description>Applied to the managed settlement. Character needs to be assigned as a governor of a fief for this effect to take effect. Effect is applied to the governed fief.</Description>
+		</Target>
+	</PerkTargets>
+	
+	<Skills>
+		<Skill id="one_handed" attribute="vigor" name="One Handed" />
+		<Skill id="two_handed" attribute="vigor" name="Two Handed" />
+		<Skill id="polearm" attribute="vigor" name="Polearm" />
+	</Skills>
+</BaseTypes>

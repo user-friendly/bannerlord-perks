@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Effects>
+	
+	<!--
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	 -->
+	
+	<Effect id="effect.settlement.militia_recruitment">
+		<Name>Daily Militia Recruitment</Name>
+		<ValueType>number</ValueType>
+		<Stack>add</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.damage.shield_bash">
+		<Name>Shield Bash Damage</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.stun.shield_bash">
+		<Name>Shield Bash Stun Duration</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.damage.resist.shield_wall">
+		<Name>Damage Resist (Shield Wall)</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.damage.axe">
+		<Name>One Handed Axe Damage</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.damage.mace">
+		<Name>One Handed Mace Damage</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.handling.onehanded">
+		<Name>One Handed Weapon Handling</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.swing_speed.onehanded">
+		<Name>One Handed Swing Speed</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.skill.onehanded">
+		<Name>Skill One Handed</Name>
+		<ValueType>number</ValueType>
+		<Stack>add</Stack>
+	</Effect>
+	
+	<Effect id="effect.character.combat.">
+		<Name>Name</Name>
+		<ValueType>number</ValueType>
+		<Stack>multi</Stack>
+	</Effect>
+	
+	
+	
+</Effects>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
