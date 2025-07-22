@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.example.org/perks/ schema/perks.xsd"
        xmlns="http://www.example.org/perks/"
 >
-	<Perk id="one_handed.basher" name="Basher" skill="one_handed">
+	<Perk id="one_handed.basher" name="Basher" skill="one_handed" required="25">
 		<Property>
 			<Target>self</Target>
 			<Description>+50% damage and longer stun durations with shield bashes.</Description>
@@ -23,7 +23,7 @@
 		</Property>
 	</Perk>
 	
-	<Perk id="one_handed.wrapped" name="Wrapped Handles" skill="one_handed">
+	<Perk id="one_handed.wrapped" name="Wrapped Handles" skill="one_handed" required="25">
 		<Property>
 			<Target>self</Target>
 			<Description>+20% handling to one handed weapons.</Description>
@@ -41,7 +41,7 @@
 		</Property>
 	</Perk>
 	
-	<Perk id="one_handed.swift" name="Swift Strike" skill="one_handed">
+	<Perk id="one_handed.swift" name="Swift Strike" skill="one_handed" required="50">
 		<Property>
 			<Target>self</Target>
 			<Description>+2% swing speed with one handed weapons</Description>
@@ -59,7 +59,7 @@
 		</Property>
 	</Perk>
 	
-	<Perk id="one_handed.blunt" name="To Be Blunt" skill="one_handed">
+	<Perk id="one_handed.blunt" name="To Be Blunt" skill="one_handed" required="50">
 		<Property>
 			<Target>self</Target>
 			<Description>+5% damage with one handed axes and maces.</Description>
@@ -78,7 +78,7 @@
 		</Property>
 	</Perk>
 	
-	<Perk id="one_handed." name="" skill="one_handed">
+	<Perk id="one_handed." name="" skill="one_handed" required="0">
 		<Property>
 			<Target>self</Target>
 			<Description>Description</Description>
@@ -96,7 +96,7 @@
 		</Property>
 	</Perk>
 	
-	<Perk id="one_handed." name="" skill="one_handed">
+	<Perk id="one_handed." name="" skill="one_handed" required="0">
 		<Property>
 			<Target>self</Target>
 			<Description>Description</Description>
